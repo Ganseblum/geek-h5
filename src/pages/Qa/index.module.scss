@@ -1,0 +1,71 @@
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  :global {
+    .bg {
+      background-color: lightcyan;
+      width: 100%;
+      height: 100%;
+      z-index: -9999;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 48px 0 100px 0;
+      overflow: scroll;
+
+      .rightBox {
+        display: flex;
+        align-items: center;
+
+        .img {
+          width: 50px;
+          height: 50px;
+          background-color: red;
+          border-radius: 50px;
+          margin: 20px 10px 0px 10px;
+        }
+
+        .message {
+          width: 240px;
+          background-color: antiquewhite;
+          border-radius: 12px;
+          padding: 5px;
+          margin-top: 20px;
+        }
+      }
+
+      .leftBox {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        .img {
+          width: 50px;
+          height: 50px;
+          background-color: blue;
+          border-radius: 50px;
+          margin: 20px 10px 0px 10px;
+        }
+
+        .message {
+          width: 240px;
+          background-color: antiquewhite;
+          border-radius: 12px;
+          padding: 5px;
+          margin-top: 20px;
+        }
+      }
+    }
+    input {
+      position: fixed;
+      left: 0;
+      bottom: 48px;
+      width: 100%;
+      height: 50px;
+      background-color: lightsteelblue;
+      border-radius: 2px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.root {
+  :global {
+    .popHead {
+      display: flex;
+      align-items: center;
+
+      justify-content: space-between;
+    }
+
+    .myChannel {
+      margin-top: 20px;
+    }
+    .recommendChannel {
+      margin-top: 20px;
+    }
+  }
+}

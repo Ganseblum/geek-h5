@@ -1,0 +1,16 @@
+.root {
+  :global {
+    .textBox {
+      width: 300px;
+      height: 90px;
+      margin: auto;
+      margin-top: 20px;
+      padding: 5px;
+      background-color: lavenderblush;
+    }
+
+    .sub {
+      font-size: 15px;
+    }
+  }
+}
